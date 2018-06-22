@@ -9,7 +9,7 @@ module RbNaCl
   # that is derived through some cryptographic protocol.
   class Auth
     # Number of bytes in a valid key
-    KEYBYTES = 0
+    KEYBYTES = 32
 
     # Number of bytes in a valid authenticator
     BYTES = 0
